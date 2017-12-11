@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Ricerca</title>
+		<title>Pizzerie</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script>
 			function controllo_campi()
@@ -59,8 +59,8 @@
 			# Codice di utilizzo di cURL
 			# Chiama l'API e la immagazzina in $json
 			$ch = curl_init() or die(curl_error());
-			curl_setopt($ch, CURLOPT_URL,$indirizzo_pagina);
-			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+			//curl_setopt($ch, CURLOPT_URL,$indirizzo_pagina);
+			//curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 			$json=curl_exec($ch) or die(curl_error());
 			
 			# Decodifico la stringa json e la salvo nella variabile $data

@@ -25,7 +25,7 @@
 			}
 			else
 			{
-				$lim=10;
+				$lim=50;
 			}
 			if(isset($_POST["cit"]))
 			{

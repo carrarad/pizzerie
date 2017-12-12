@@ -102,7 +102,7 @@
 			curl_close($ch);
 
 			if($lim==0)
-				$lim=10;
+				$lim=50;
 			
 			for($e=0; $e<strlen($cit); $e++)
 				if($cit[$e]=='+')

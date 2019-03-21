@@ -33,7 +33,7 @@
 			}
 			else
 			{
-				$cit="Novi ligure";
+				$cit="Novi%20Ligure";
 			}
 			if(isset($_POST["que"]))
 			{

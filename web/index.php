@@ -33,7 +33,7 @@
 			}
 			else
 			{
-				$cit="Milano";
+				$cit="Nova Ligure";
 			}
 			if(isset($_POST["que"]))
 			{

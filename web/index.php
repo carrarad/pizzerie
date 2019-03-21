@@ -33,7 +33,7 @@
 			}
 			else
 			{
-				$cit="Bergamo";
+				$cit="Novi%20Ligure%2C%20Piemonte%2C%20Italia";
 			}
 			if(isset($_POST["que"]))
 			{

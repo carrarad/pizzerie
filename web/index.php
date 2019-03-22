@@ -33,7 +33,7 @@
 			}
 			else
 			{
-				$cit="Novi%20Ligure%2C%20Piemonte%2C%20Italia";
+				$cit="Novi+Ligure";
 			}
 			if(isset($_POST["que"]))
 			{

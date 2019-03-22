@@ -69,6 +69,7 @@
 						echo "<th>Nome</th>";
 						echo "<th>Latitudine</th>";
 						echo "<th>Longitudine</th>";
+						echo "<th>Indirizzo</th>";
 					echo "</tr>";
 					for($i=0; $i<$lim; $i++)
 					{
@@ -81,6 +82,9 @@
 							echo "</td>";
 							echo "<td>";
 							echo $data->response->venues[$i]->location->lng;
+							echo "</td>";
+						echo "<td>";
+							echo $data->response->venues[$i]->location->formattedAddress;
 							echo "</td>";
 						echo "</tr>";
 					}

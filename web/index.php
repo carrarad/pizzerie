@@ -25,7 +25,7 @@
 			}
 			else
 			{
-				$lim=20;
+				$lim=50;
 			}
 			if(isset($_POST["cit"]))
 			{
@@ -84,7 +84,7 @@
 							echo $data->response->venues[$i]->location->lng;
 							echo "</td>";
 						echo "<td>";
-							echo $data->response->venues[$i]->location->formattedAddress();
+							echo $data->response->venues[$i]->location->formattedAddress[50];
 							echo "</td>";
 						echo "</tr>";
 					}

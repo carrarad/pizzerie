@@ -84,7 +84,7 @@
 							echo $data->response->venues[$i]->location->lng;
 							echo "</td>";
 						echo "<td>";
-							echo $data->response->venues[$i]->location->formattedAddress;
+							echo $data->response->venues[$i]->location->formattedAddress();
 							echo "</td>";
 						echo "</tr>";
 					}
